@@ -1,6 +1,6 @@
 # emojidon
 
-**emojidon** is a tool for synchronizing emojis on a [Mastodon](https://joinmastodon.org/ "Mastodon - Decentralized social media") instance. 🚀 It’s pretty early days here, so maybe don’t bet your VC funded startup on this project just yet. 💸
+**emojidon** is a tool for synchronizing emojis on a [Mastodon] instance. 🚀 It’s pretty early days here, so maybe don’t bet your VC funded startup on this project just yet. 💸
 
 
 ## Example
@@ -27,6 +27,7 @@ This thing could do so much! But it probably _should_ do only a bit more. Some t
     - notify if any PNG or GIF files are too big or w/e
 - cope better with capitalization than it probably does
 - use Mastodon API instead of Selenium—requires it to actually exist, though 😢
+- support non-Mastodon fediverse projects, e.g., [Pixelfed], [Takahē], [Letterbook]
 
 
 ## Installation and Use
@@ -45,9 +46,16 @@ See Installation instructions above. No tests or anything else yet, sorry. Remov
 
 Maybe don’t until at least some of this is fleshed out a bit more?
 
-But if you’re really keen on it, see ideas in Roadmap or [open an issue](https://github.com/nkantar/emojidon/issues/new "New Issue · nkantar/emojidon")—I’m not opposed to contributions! ❤️
+But if you’re really keen on it, see ideas in Roadmap or [open an issue]—I’m not opposed to contributions! ❤️
 
 
 ## License
 
 MIT, see `LICENSE` file.
+
+
+[Mastodon]: https://joinmastodon.org/ "Mastodon - Decentralized social media"
+[Pixelfed]: https://pixelfed.org/ "Pixelfed - Decentralized social media"
+[Takahē]: https://jointakahe.org/ "Welcome | Takahē"
+[Letterbook]: https://github.com/Letterbook/Letterbook "Letterbook/Letterbook: A Mastodon-compatible microblogging server, optimized to reduce administrative costs and burdens."
+[open an issue]: https://github.com/nkantar/emojidon/issues/new "New Issue · nkantar/emojidon"
