@@ -34,7 +34,7 @@ This thing could do so much! But it probably _should_ do only a bit more. Some t
 
 1. Install dependencies with `poetry install`
 2. Copy `.env.sample` to `.env` and fill it out
-3. Run `poetry run python sync.py`
+3. Run `poetry run python emojidon/emojidon.py`
 
 
 ## Development

@@ -12,6 +12,7 @@ from rich import print
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from slugify import slugify as og_slugify
+import typer
 
 
 load_dotenv()
@@ -147,4 +148,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    typer.run(main)
